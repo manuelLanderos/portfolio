@@ -1,0 +1,129 @@
+body {
+  background-color: #010e28;
+
+}
+
+#title-Tag-Line {
+  font-size: 20px;
+}
+
+/* .card-item__bg{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: block;
+  position: relative;
+  margin: 30px auto;
+  transform: translate(0px, 50px);
+  z-index: 5;
+} */
+
+/* form animation starts */
+.form {
+  background: #fff;
+  box-shadow: 0 30px 60px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  padding: 50px 200px 50px 200px;
+  left: 0;
+  right: 0;
+  position: relative;
+  /* border-top: 5px solid #0e3721; */
+  /*   z-index: 1; */
+  animation: bounce 1.5s infinite;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+
+.title {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+  color: black;
+}
+
+.termsConditions {
+  margin: 0 auto 5px 80px;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.secondaryTitle {
+  color: grey;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: rgb(0, 0, 0);
+  height: 40px;
+}
+
+.name:hover {
+  border-bottom: 5px solid #F2CED8;
+  height: 50px;
+  width: 40px;
+  transition: ease 1.5s;
+}
+
+
+
+.message {
+  background-color: #ebebeb;
+  /* overflow: hidden; */
+  height: 200px;
+}
+
+.message:hover {
+  border-bottom: 5px solid #FFCFC4;
+  height: 220px;
+  width: 200px;
+  transition: ease 1.5s;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: ease-in-out 1.5s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #FFCFC4;
+  font-size: 20px;
+}
+
+.submit:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 300px;
+  border-top: 5px solid #FFCFC4;
+  border-radius: 0%;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+
+  50% {
+    transform: translate(0, 8px);
+  }
+}

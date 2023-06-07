@@ -1,0 +1,43 @@
+/* .box {
+  line-height: 70px;
+  margin: 3px;
+  padding-bottom: 20px;
+  text-align: left;
+  width: 1000px;
+  color: white;
+  text-transform: capitalize;
+  font-size: x-large;
+
+} */
+
+.container {
+  display: flex;
+  justify-content: right;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  /* flex: 1; */
+  line-height: 70px;
+  margin-left: 30px;
+  margin-bottom: 200px;
+  padding-bottom: 20px;
+  text-align: left;
+  width: 1000px;
+  color: white;
+  text-transform: capitalize;
+  font-size: x-large;
+  width: 100%;
+}
+
+.code {
+  width: 100%;
+  margin-bottom: 200px;
+
+
+
+}
