@@ -89,8 +89,8 @@ function intro() {
               </p>
             </div>
           </div>
-          <a href="https://github.com/manuelLanderos/Smart-brain" target="_blank" rel="noreferrer"><button class="bn632-hover bn25">Github</button></a>
-          <a href="https://smart-brain-mwde.onrender.com/" target="_blank" rel="noreferrer"><button class="bn633-hover bn25">Website</button></a>
+          <a href="https://github.com/manuelLanderos/portfolio" target="_blank" rel="noreferrer"><button class="bn632-hover bn25">Github</button></a>
+          <a href="https://manuel-landeros-portfolio.onrender.com" target="_blank" rel="noreferrer"><button class="bn633-hover bn25">Website</button></a>
 
 
 
