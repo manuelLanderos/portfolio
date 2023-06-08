@@ -110,7 +110,8 @@ p {
   border-radius: 50px;
   position: fixed;
   left: 1000px;
-  top: 75%;
+  top: 50%;
+  transform: translateY(-50%);
   /* moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out; */
