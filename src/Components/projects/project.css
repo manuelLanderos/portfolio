@@ -60,7 +60,7 @@ p {
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
+  margin: 20px auto;
   height: 8%;
   text-align: center;
   border: none;
@@ -115,7 +115,7 @@ p {
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
+  margin: 20px auto;
   height: 8%;
   text-align: center;
   border: none;
@@ -136,7 +136,7 @@ p {
     width: 20%;
     height: 8%;
     font-size: 14px;
-    margin: 300px;
+    margin-bottom: 10px;
   }
 }
 
