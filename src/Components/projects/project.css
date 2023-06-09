@@ -136,7 +136,12 @@ p {
     width: 20%;
     height: 8%;
     font-size: 14px;
-    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* Added gap for horizontal spacing */
   }
 }
 
