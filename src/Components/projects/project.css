@@ -132,7 +132,7 @@ p {
 
   /* Styles for smaller screens (e.g., phones) */
   .bn633-hover {
-    width: 42%;
+    width: 20%;
     height: 8%;
     font-size: 14px;
     display: flex;
@@ -144,7 +144,7 @@ p {
   }
 
   .bn632-hover {
-    width: 42%;
+    width: 20%;
     height: 8%;
     font-size: 14px;
     display: flex;
