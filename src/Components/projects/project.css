@@ -55,25 +55,36 @@ p {
 }
 
 .bn632-hover {
-  width: 160px;
+  width: 7%;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
   margin: 20px;
-  height: 55px;
+  height: 8%;
   text-align: center;
   border: none;
   background-size: 300% 100%;
   border-radius: 50px;
   position: fixed;
   left: 55%;
-  top: 79%;
+  top: 79.5%;
   transform: translate(-50%, -60%);
   /* moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out; */
   transition: all .4s ease-in-out;
+}
+
+@media (max-width: 600px) {
+
+  /* Styles for smaller screens (e.g., phones) */
+
+  .bn632-hover {
+    width: 80%;
+    height: 12%;
+    font-size: 14px;
+  }
 }
 
 .bn632-hover:hover {
@@ -98,13 +109,13 @@ p {
 }
 
 .bn633-hover {
-  width: 160px;
+  width: 7%;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
   margin: 20px;
-  height: 55px;
+  height: 8%;
   text-align: center;
   border: none;
   background-size: 300% 100%;
@@ -112,19 +123,18 @@ p {
   position: fixed;
   left: 40%;
   top: 79%;
-  transform: translate(-50%, -60%);
-  /* moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out; */
+  transform: translate(-50%, -50%);
   transition: all .4s ease-in-out;
 }
 
-@media (max-width: 10px) {
+@media (max-width: 600px) {
 
   /* Styles for smaller screens (e.g., phones) */
-  .navMenu {
+  .bn633-hover,
+  .bn632-hover {
+    width: 80%;
+    height: 12%;
     font-size: 14px;
-    /* Adjust the desired font size for smaller screens */
   }
 }
 
