@@ -55,7 +55,7 @@ p {
 }
 
 .bn632-hover {
-  max-width: 160px;
+  width: 160px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
@@ -98,7 +98,7 @@ p {
 }
 
 .bn633-hover {
-  max-width: 160px;
+  width: 160px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
