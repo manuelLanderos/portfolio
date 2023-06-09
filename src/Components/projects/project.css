@@ -136,7 +136,7 @@ p {
     width: 20%;
     height: 8%;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin: 10px auto;
   }
 }
 
