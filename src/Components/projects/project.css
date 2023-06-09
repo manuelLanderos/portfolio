@@ -131,17 +131,28 @@ p {
 @media (max-width: 600px) {
 
   /* Styles for smaller screens (e.g., phones) */
-  .bn633-hover,
-  .bn632-hover {
-    width: 20%;
+  .bn633-hover {
+    width: 42%;
     height: 8%;
     font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50%;
-    /* Added gap for horizontal spacing */
+    gap: 10px;
+    /* Decreased the gap for vertical spacing */
+  }
+
+  .bn632-hover {
+    width: 42%;
+    height: 8%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* Decreased the gap for vertical spacing */
   }
 }
 
