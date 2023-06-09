@@ -119,6 +119,15 @@ p {
   transition: all .4s ease-in-out;
 }
 
+@media (max-width: 768px) {
+
+  /* Styles for smaller screens (e.g., phones) */
+  .navMenu {
+    font-size: 14px;
+    /* Adjust the desired font size for smaller screens */
+  }
+}
+
 .bn633-hover:hover {
   background-position: 100% 0;
   moz-transition: all .4s ease-in-out;
