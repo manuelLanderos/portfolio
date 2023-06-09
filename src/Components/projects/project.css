@@ -140,7 +140,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1000px;
+    gap: 50%;
     /* Added gap for horizontal spacing */
   }
 }
