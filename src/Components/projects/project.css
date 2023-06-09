@@ -44,6 +44,14 @@ img {
   overflow: auto;
   text-transform: capitalize;
   text-align: left;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .project-description {
+    line-height: 150%;
+    /* Adjust the line height for mobile devices */
+  }
 }
 
 .project-title {
