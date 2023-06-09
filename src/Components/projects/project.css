@@ -135,11 +135,11 @@ p {
     width: 20%;
     height: 8%;
     font-size: 14px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 10px; */
     position: relative;
     left: 10px;
     /* Adjust the value as needed */
@@ -150,11 +150,11 @@ p {
     width: 20%;
     height: 8%;
     font-size: 14px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 10px; */
     /* Decreased the gap for vertical spacing */
     position: relative;
     right: 10px;
