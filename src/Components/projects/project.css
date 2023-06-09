@@ -36,7 +36,7 @@ img {
   left: -130%;
   max-width: 100%;
   padding: 20px;
-  line-height: 70px;
+  line-height: 250%;
   /* background-color: white; */
   border-radius: 5px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
@@ -135,30 +135,18 @@ p {
     width: 20%;
     height: 8%;
     font-size: 14px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; */
+
     position: relative;
     left: 10px;
-    /* Adjust the value as needed */
-    /* Decreased the gap for vertical spacing */
+
   }
 
   .bn632-hover {
     width: 20%;
     height: 8%;
     font-size: 14px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; */
-    /* Decreased the gap for vertical spacing */
     position: relative;
     right: 10px;
-    /* Adjust the value as needed */
   }
 }
 
