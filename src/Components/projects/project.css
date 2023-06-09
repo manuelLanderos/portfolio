@@ -80,11 +80,12 @@ p {
 
   /* Styles for smaller screens (e.g., phones) */
 
-  .bn632-hover {
+  /* .bn632-hover {
     width: 7%;
     height: 8%;
     font-size: 14px;
-  }
+    margin: 20px;
+  } */
 }
 
 .bn632-hover:hover {
@@ -135,6 +136,7 @@ p {
     width: 20%;
     height: 8%;
     font-size: 14px;
+    margin: 20px;
   }
 }
 
