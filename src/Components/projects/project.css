@@ -67,8 +67,9 @@ p {
   background-size: 300% 100%;
   border-radius: 50px;
   position: fixed;
-  left: 1300px;
-  top: 75%;
+  left: 55%;
+  top: 79%;
+  transform: translate(-50%, -60%);
   /* moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out; */
@@ -109,9 +110,9 @@ p {
   background-size: 300% 100%;
   border-radius: 50px;
   position: fixed;
-  left: 1000px;
-  top: 75%;
-  transform: translate(-50%, -50%);
+  left: 40%;
+  top: 79%;
+  transform: translate(-50%, -60%);
   /* moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out; */
