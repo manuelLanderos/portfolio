@@ -140,6 +140,9 @@ p {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    position: relative;
+    left: 10px;
+    /* Adjust the value as needed */
     /* Decreased the gap for vertical spacing */
   }
 
@@ -153,6 +156,9 @@ p {
     align-items: center;
     gap: 10px;
     /* Decreased the gap for vertical spacing */
+    position: relative;
+    right: 10px;
+    /* Adjust the value as needed */
   }
 }
 
