@@ -25,12 +25,9 @@ body {
   background: #fff;
   box-shadow: 0 30px 60px 0 rgba(255, 255, 255, 0.4);
   border-radius: 5px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 200px;
-  padding: 50px 200px 50px 200px;
+  max-width: 100%;
+  margin-bottom: 50px;
+  padding: 40px;
   left: 0;
   right: 0;
   position: relative;
@@ -40,14 +37,14 @@ body {
 }
 
 ::-webkit-input-placeholder {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .title {
   display: block;
   font-family: sans-serif;
   margin: 10px auto 5px;
-  width: 300px;
+  width: 100%;
   color: black;
 }
 
@@ -68,6 +65,7 @@ body {
   background-color: #ebebeb;
   color: rgb(0, 0, 0);
   height: 40px;
+  width: 100%;
 }
 
 .name:hover {
@@ -81,15 +79,16 @@ body {
 
 .message {
   background-color: #ebebeb;
-  /* overflow: hidden; */
-  height: 200px;
+
+  height: auto;
+  width: 100%;
+  transition: ease 1.5s;
+
 }
 
 .message:hover {
   border-bottom: 5px solid #FFCFC4;
-  height: 220px;
-  width: 200px;
-  transition: ease 1.5s;
+
 }
 
 .formEntry {
@@ -100,10 +99,16 @@ body {
   border-radius: 2px;
   border: none;
   transition: ease-in-out 1.5s;
+  width: 100%;
+
+  max-width: 300px;
+
+  box-sizing: border-box;
+
 }
 
 .submit {
-  width: 200px;
+  width: 100%;
   color: white;
   background-color: #FFCFC4;
   font-size: 20px;
@@ -112,7 +117,7 @@ body {
 .submit:hover {
   box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
   transform: translateY(-3px);
-  width: 300px;
+  width: 100%;
   border-top: 5px solid #FFCFC4;
   border-radius: 0%;
   cursor: pointer;

@@ -2,50 +2,97 @@ import React from 'react'
 import './intro.css'
 import Plx from "react-plx";
 
-
-
 function intro() {
-  const parallaxData = [
-    {
-      start: 'self',
-      duration: 1000,
-      properties: [
-        {
-          startValue: -280,
-          endValue: 20,
-          property: "translateX",
-        },
-        {
-          startValue: 0,
-          endValue: 1,
-          property: "opacity",
-        },
-      ],
-    },
-  ];
-  const parallaxData2 = [
-    {
-      start: 'self',
-      duration: 1000,
-      properties: [
-        {
-          startValue: 200,
-          endValue: 0,
-          property: "translateX",
-        },
-        {
-          startValue: 0,
-          endValue: 1,
-          property: "opacity",
-        },
-        {
-          startValue: .5,
-          endValue: .9,
-          property: "scale",
-        },
-      ],
-    },
-  ];
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  let parallaxData, parallaxData2;
+  if (isMobile) {
+
+    parallaxData = [
+      {
+        start: 'self',
+        duration: 40,
+        properties: [
+          {
+            startValue: -280,
+            endValue: 20,
+            property: "translateX",
+          },
+          {
+            startValue: 0,
+            endValue: 1,
+            property: "opacity",
+          },
+        ],
+      },
+    ];
+    parallaxData2 = [
+      {
+        start: 'self',
+        duration: 40,
+        properties: [
+          {
+            startValue: 2,
+            endValue: 0,
+            property: "translateX",
+          },
+          {
+            startValue: 0,
+            endValue: 1,
+            property: "opacity",
+          },
+          {
+            startValue: .5,
+            endValue: .9,
+            property: "scale",
+          },
+        ],
+      },
+    ];
+  } else {
+    parallaxData = [
+      {
+        start: 'self',
+        duration: 1000,
+        properties: [
+          {
+            startValue: -280,
+            endValue: 20,
+            property: "translateX",
+          },
+          {
+            startValue: 0,
+            endValue: 1,
+            property: "opacity",
+          },
+        ],
+      },
+    ];
+
+    parallaxData2 = [
+      {
+        start: 'self',
+        duration: 1000,
+        properties: [
+          {
+            startValue: 200,
+            endValue: 0,
+            property: "translateX",
+          },
+          {
+            startValue: 0,
+            endValue: 1,
+            property: "opacity",
+          },
+          {
+            startValue: .5,
+            endValue: .9,
+            property: "scale",
+          },
+        ],
+      },
+    ];
+  }
+
 
   return (
     <div>

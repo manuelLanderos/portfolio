@@ -7,7 +7,7 @@ import Plx from "react-plx";
 const parallaxData = [
   {
     start: 'self',
-    duration: 1000,
+    duration: 700,
     properties: [
       {
         startValue: 0,

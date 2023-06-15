@@ -17,7 +17,8 @@
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  position: relative
 }
 
 .box {
@@ -27,17 +28,43 @@
   margin-bottom: 200px;
   padding-bottom: 20px;
   text-align: left;
-  width: 1000px;
+  max-width: 1000px;
   color: white;
   text-transform: capitalize;
   font-size: x-large;
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .content {
+    max-width: 250%;
+
+    max-height: 500px;
+    line-height: 20px;
+
+    overflow: scroll;
+
+
+
+    font-size: small;
+    flex-direction: column;
+    /* Add this line */
+    align-items: flex-start;
+    /* Add this line */
+
+  }
+
+  .code {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 0;
+  }
+}
+
+
 .code {
   width: 100%;
   margin-bottom: 200px;
-
-
 
 }
