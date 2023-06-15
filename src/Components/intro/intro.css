@@ -23,12 +23,12 @@
 
 .box {
   /* flex: 1; */
-  line-height: 70px;
+  line-height: 250%;
   margin-left: 30px;
   margin-bottom: 200px;
   padding-bottom: 20px;
   text-align: left;
-  max-width: 1000px;
+  max-width: 50%;
   color: white;
   text-transform: capitalize;
   font-size: x-large;
