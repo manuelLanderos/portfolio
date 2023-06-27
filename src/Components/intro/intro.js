@@ -10,7 +10,7 @@ function intro() {
     parallaxData = [
       {
         start: 'self',
-        duration: 40,
+        duration: 300,
         properties: [
           {
             startValue: -280,
@@ -28,7 +28,7 @@ function intro() {
     parallaxData2 = [
       {
         start: 'self',
-        duration: 40,
+        duration: 300,
         properties: [
           {
             startValue: 2,
@@ -52,7 +52,7 @@ function intro() {
     parallaxData = [
       {
         start: 'self',
-        duration: 1000,
+        duration: 600,
         properties: [
           {
             startValue: -280,
@@ -71,7 +71,7 @@ function intro() {
     parallaxData2 = [
       {
         start: 'self',
-        duration: 1000,
+        duration: 600,
         properties: [
           {
             startValue: 200,

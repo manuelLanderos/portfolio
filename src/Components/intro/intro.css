@@ -1,70 +1,58 @@
-/* .box {
-  line-height: 70px;
-  margin: 3px;
-  padding-bottom: 20px;
-  text-align: left;
-  width: 1000px;
-  color: white;
-  text-transform: capitalize;
-  font-size: x-large;
-
-} */
-
 .container {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .content {
   display: flex;
   align-items: flex-start;
-  position: relative
+  position: relative;
 }
 
 .box {
-  /* flex: 1; */
-  line-height: 250%;
+  line-height: 200%;
   margin-left: 30px;
-  margin-bottom: 200px;
+  /* margin-bottom: ; */
   padding-bottom: 20px;
   text-align: left;
-  max-width: 50%;
+  max-width: 100%;
   color: white;
   text-transform: capitalize;
   font-size: x-large;
   width: 100%;
+  overflow: scroll;
+  max-height: 70vh;
+  box-sizing: border-box;
 }
+
 
 @media only screen and (max-width: 600px) {
   .content {
-    max-width: 250%;
-
+    max-width: 100%;
     max-height: 500px;
-    line-height: 20px;
-
+    line-height: 20vh;
     overflow: scroll;
-
-
-
     font-size: small;
     flex-direction: column;
-    /* Add this line */
     align-items: flex-start;
-    /* Add this line */
+  }
 
+  .box {
+    margin-left: 0;
+    margin-bottom: 20px;
+    /* Adjust the margin-bottom as needed */
+    padding-bottom: 10px;
+    /* Adjust the padding-bottom as needed */
   }
 
   .code {
     position: absolute;
-    top: 0;
-    right: 0;
-    margin-bottom: 0;
+    /* Change the position to static */
+    margin-top: 200px;
   }
 }
 
-
 .code {
-  width: 100%;
+  width: 80%;
   margin-bottom: 200px;
-
 }

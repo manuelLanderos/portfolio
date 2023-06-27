@@ -1,26 +1,11 @@
 body {
   background-color: #010e28;
-
 }
 
 #title-Tag-Line {
   font-size: 20px;
 }
 
-/* .card-item__bg{
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  display: block;
-  position: relative;
-  margin: 30px auto;
-  transform: translate(0px, 50px);
-  z-index: 5;
-} */
-
-/* form animation starts */
 .form {
   background: #fff;
   box-shadow: 0 30px 60px 0 rgba(255, 255, 255, 0.4);
@@ -31,8 +16,6 @@ body {
   left: 0;
   right: 0;
   position: relative;
-  /* border-top: 5px solid #0e3721; */
-  /*   z-index: 1; */
   animation: bounce 1.5s infinite;
 }
 
@@ -49,7 +32,7 @@ body {
 }
 
 .termsConditions {
-  margin: 0 auto 5px 80px;
+  margin: 0 auto 5px;
 }
 
 .pageTitle {
@@ -75,20 +58,15 @@ body {
   transition: ease 1.5s;
 }
 
-
-
 .message {
   background-color: #ebebeb;
-
   height: auto;
   width: 100%;
   transition: ease 1.5s;
-
 }
 
 .message:hover {
   border-bottom: 5px solid #FFCFC4;
-
 }
 
 .formEntry {
@@ -100,11 +78,8 @@ body {
   border: none;
   transition: ease-in-out 1.5s;
   width: 100%;
-
   max-width: 300px;
-
   box-sizing: border-box;
-
 }
 
 .submit {
@@ -125,10 +100,24 @@ body {
 
 @keyframes bounce {
   0% {
-    tranform: translate(0, 4px);
+    transform: translate(0, 4px);
   }
 
   50% {
     transform: translate(0, 8px);
+  }
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
+  .form {
+    padding: 20px;
+  }
+
+  .formEntry,
+  .name,
+  .message {
+    min-width: 200px;
   }
 }

@@ -4,24 +4,45 @@ import './project.css'
 import Tilt from 'react-parallax-tilt'
 import Plx from "react-plx";
 
-const parallaxData = [
-  {
-    start: 'self',
-    duration: 700,
-    properties: [
-      {
-        startValue: 0,
-        endValue: 1,
-        property: "scale",
-      },
-    ],
-  },
-
-];
-
-
-
 function intro() {
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  let parallaxData;
+  if (isMobile) {
+
+    parallaxData = [
+      {
+        start: 'self',
+        duration: 300,
+        properties: [
+          {
+            startValue: 0,
+            endValue: 1,
+            property: "scale",
+          },
+        ],
+      },
+
+    ];
+
+  } else {
+    parallaxData = [
+      {
+        start: 'self',
+        duration: 700,
+        properties: [
+          {
+            startValue: 0,
+            endValue: 1,
+            property: "scale",
+          },
+        ],
+      },
+
+    ];
+
+
+  }
+
   return (
     <div>
       <h1 id="project">Projects</h1>
