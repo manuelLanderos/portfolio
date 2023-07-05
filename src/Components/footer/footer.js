@@ -9,9 +9,10 @@ function footer() {
         <li className="list"><a href="https://github.com/manuelLanderos" target="_blank" rel="noreferrer">Github</a></li>
         <li className="list"><a href="mailto:manuel.landeros@icloud.com" target="_blank" rel="noreferrer">Email</a></li>
         <li className="list"><a href="https://www.linkedin.com/in/manuel-landeros-a4332b219/" target="_blank" rel="noreferrer" >LinkedIn</a></li>
+        <li className="list"><a href="Resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
         {/* <li className="list"><a href="https://dribbble.com/julesforrest">Dribbble</a></li> */}
         <li className="list">
-          <p className="hand">👋</p>
+
         </li>
       </ul>
     </div>
