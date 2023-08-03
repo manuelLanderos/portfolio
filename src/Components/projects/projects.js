@@ -59,7 +59,8 @@ function intro() {
               <img src="photo1.png" alt="smart brain" />
             </Tilt>
             <div className="project-description">
-              <p>This is the facial recognition website! My site provides a simple and easy-to-use sign in page where you can enter your login details and access our amazing image recognition feature. With our image recognition tool, you can input the URL of any image, and our algorithm will locate and highlight the face present within it. This feature is incredibly useful for individuals and organizations that need to sort or categorize images by the faces that appear within them, making it a valuable tool for a wide range of applications. Whether you're a professional photographer, a researcher, or simply someone who wants to organize their personal photo collection, our face recognition feature can help you save time and effort. So why wait? Sign in and start using our site's amazing face recognition feature today! Back-end code provided in the "About" section
+              <p>
+                Facial Recognition website using HTML, CSS, JavaScript, and React. Easily locate and highlight faces in any image URL. Ideal for photographers and researchers. Try it now! Back-end code in "About" section.
               </p>
             </div>
           </div>
@@ -75,7 +76,7 @@ function intro() {
               <img src="photo2.png" alt="robofriends" />
             </Tilt>
             <div className="project-description">
-              <p>RoboFriends, the interactive "Social Media Page" where you can search for friends in a unique way! Our friendly bots are here to assist as you experiment with our innovative search engine. Discover profiles by entering names or emails, making connections easier than ever. Experience the seamless responsiveness as you navigate through our platform. RoboFriends combines technology and imagination, creating a captivating digital experience. Join us now and unleash the excitement of exploring, searching, and connecting with ease. Let RoboFriends revolutionize your social interactions and make your online friendships come alive!</p>
+              <p>RoboFriends - Interactive "Social Media Page" using HTML, CSS, JavaScript, and React. Join now for an exciting digital experience, connecting with ease. Let RoboFriends revolutionize your social interactions!</p>
             </div>
           </div>
           <a href="https://github.com/manuelLanderos/robofriends" target="_blank" rel="noreferrer"><button class="bn632-hover bn25">Github</button></a>
@@ -89,9 +90,7 @@ function intro() {
               <img src="photo3.png" alt="to do list" />
             </Tilt>
             <div className="project-description">
-              <p>This is a simple yet powerful tool that helps you keep track of your daily necessities and ensures you dont forget to do anything important in your daily schedule.  With this app, it prioritizes adding To do items, check them off once completed, and delete them once you dont need them in your list anymore
-                <br></br>
-                The user-friendly interface allows any user to easily add, mark, and delete your task as needed. Whether you're a busy professional or a student with a hectic schedule, this Todo List page can help you stay organized and on top of your game.</p>
+              <p>A powerful Todo List app built with HTML, CSS, JavaScript, and React!  Easily add, check off, and delete items from your list. Stay organized and on top of your game with this user-friendly interface. </p>
             </div>
           </div>
           <a href="https://github.com/manuelLanderos/ToDo" target="_blank" rel="noreferrer"><button class="bn632-hover bn25">Github</button></a>
@@ -106,7 +105,8 @@ function intro() {
               <img src="portfolio1.png" alt="smart brain" />
             </Tilt>
             <div className="project-description">
-              <p>Does this look a little familiar? Its because your experiencing it right now! Here you'll find a showcase of my skills, experience, and projects that I've built from scratch using React, HTML, JavaScript, and CSS. As a passionate web developer with 1 year of experience, specializing in front-end web development, I've honed my skills in creating engaging and user-friendly web applications. Through this website, I aim to demonstrate my proficiency in crafting interactive and visually appealing experiences. From developing the HTML structure to implementing dynamic functionality with JavaScript and enhancing the aesthetics with CSS, every aspect of this portfolio reflects my dedication to delivering high-quality front-end solutions. Explore my projects to see firsthand how I leverage these technologies to create impactful and seamless user experiences. Get inspired by the possibilities that can be achieved through the power of React and my expertise in front-end web development!
+              <p>
+                Welcome to my portfolio! Experience my skills in front-end web development using React, HTML, JavaScript, and CSS. Explore engaging projects that showcase impactful user experiences. Get inspired by the possibilities of React and my expertise!
               </p>
             </div>
           </div>

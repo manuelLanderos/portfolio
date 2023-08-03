@@ -21,7 +21,7 @@ function About() {
     <div id="container">
       <Plx parallaxData={parallaxData}>
 
-        <a href="https://www.linkedin.com/in/manuel-landeros-a4332b219/" target="_blank" rel="noreferrer"><img src='me.jpeg' alt="me" /> </a>
+        <a className="link" href="https://www.linkedin.com/in/manuel-landeros-a4332b219/" target="_blank" rel="noreferrer"><img src='me.jpeg' alt="me" /> </a>
         <div class="box-text">
           <h1>About Me</h1>
           <p>Hello! My name is Manuel Landeros </p>

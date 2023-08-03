@@ -100,13 +100,7 @@ function intro() {
         <Plx parallaxData={parallaxData}>
           <div className="content">
             <p className="box">
-              Hi, I'm Manuel Landeros, and I'm a web developer with experience in both front-end and back-end development. I'm proficient in HTML, CSS, Javascript, Node.js, NPM, and React.
-              <br />
-              I got into web development when I was working as a designer and realized I wanted to expand my skill set. I enjoyed the technical aspect of designing and decided to pursue web development as a career. Before I made the switch, I worked with artists to create advertisements for emails, art exhibitions, and project pitches.
-              <br />
-              I've since gained experience working on a variety of projects, from creating a complex facial recognition website with front and back end properties. My biggest achievement is creating THIS page, all by myself, listing all my projects and everything needed to show myself off and all the hard work I have put into my work.
-              <br />
-              In my free time, I enjoy reading, watching films, and listening to music. If you're interested in learning more about my work, please check out my portfolio and Github profile. Thanks for visiting my site!
+              Hello! I'm Manuel Landeros, a web developer skilled in HTML, CSS, JavaScript, Node.js, NPM, and React. My journey began as a designer, but I found my passion in web development and made the switch. I've worked on various projects, including a complex facial recognition website. This page, showcasing all my hard work and projects, is my proudest achievement. In my free time, I enjoy reading, watching films, and listening to music. Check out my portfolio and Github profile to learn more. Thanks for visiting!
             </p>
             <Plx parallaxData={parallaxData2}>
 

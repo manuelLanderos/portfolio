@@ -10,6 +10,8 @@
   text-align: center;
 }
 
+
+
 .under {
   display: flex;
   justify-content: center;
@@ -23,13 +25,10 @@
   display: flex;
   align-items: center;
   margin: 0 10px;
+
 }
 
-.hand {
-  position: relative;
-  left: -1600%;
-  align-self: flex-end;
-}
+
 
 a {
   color: white;

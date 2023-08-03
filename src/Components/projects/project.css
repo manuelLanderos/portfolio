@@ -1,11 +1,16 @@
 .container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
+  color: rgb(58, 57, 57);
+}
+
+#project {
+  color: rgb(58, 57, 57);
 }
 
 .card {
@@ -44,6 +49,7 @@ img {
   overflow: auto;
   text-transform: capitalize;
   text-align: left;
+  color: rgb(58, 57, 57);
 
 }
 
@@ -68,9 +74,7 @@ img {
   }
 }
 
-p {
-  color: white;
-}
+
 
 .bn632-hover {
   width: 7%;
