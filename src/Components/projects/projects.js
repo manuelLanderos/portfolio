@@ -28,7 +28,7 @@ function intro() {
     parallaxData = [
       {
         start: 'self',
-        duration: 700,
+        duration: 500,
         properties: [
           {
             startValue: 0,

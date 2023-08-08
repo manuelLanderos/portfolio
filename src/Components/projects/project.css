@@ -46,10 +46,11 @@ img {
   border-radius: 5px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   z-index: 1;
-  overflow: auto;
+  overflow: hidden;
   text-transform: capitalize;
   text-align: left;
   color: rgb(58, 57, 57);
+  font-size: 1.5vw;
 
 }
 

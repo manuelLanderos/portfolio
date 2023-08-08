@@ -20,9 +20,10 @@
   text-transform: capitalize;
   font-size: x-large;
   width: 100%;
-  overflow: scroll;
+  overflow: hidden;
   max-height: 70vh;
   box-sizing: border-box;
+  font-size: 1.5vw;
 }
 
 
