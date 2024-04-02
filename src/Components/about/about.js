@@ -23,7 +23,7 @@ function About() {
 
         <a className="link" href="https://www.linkedin.com/in/manuel-landeros-a4332b219/" target="_blank" rel="noreferrer"><img src='me.jpeg' alt="me" /> </a>
         <div class="box-text">
-          <h1>About Me</h1>
+          <h1>About Me Hello</h1>
           <p>Hello! My name is Manuel Landeros </p>
         </div>
       </Plx>
